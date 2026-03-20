@@ -5,7 +5,7 @@ from groq import Groq
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖")
 
 # Title
-st.title("🤖 AI Chatbot")
+st.title("🤖 Mimi AI Chatbot")
 
 # Initialize Groq client
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])

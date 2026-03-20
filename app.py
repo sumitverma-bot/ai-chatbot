@@ -3,7 +3,7 @@ from groq import Groq
 import os
 
 # Connect to AI
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key=os.getenv("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"))
 
 st.title("🤖 Sumit's AI Chatbot")
 

@@ -1,6 +1,10 @@
 import streamlit as st
 from groq import Groq
 
+if st.button("🗑️ Clear Chat"):
+    st.session_state.messages = []
+    st.rerun()
+    
 # Page config
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖")
 
